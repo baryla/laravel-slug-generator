@@ -9,5 +9,5 @@ use App\Helpers\Slug;
 ...
 
 $slug = new Slug;
-return $slug->generate(Product::class, $title;
+return $slug->generate(Product::class, $title);
 ```
