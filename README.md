@@ -30,5 +30,3 @@ return $slug->generate(Product::class, $title, $product);
 ```
 
 What this will do is check whether the slug is already taken and if it is taken, check whether the slug from the **$product** object is the same as the slug we want to generate, and if it is the same, there's no need to generate a new one.
-
-If you have any questions/feedback send me an email to adrianrbarylski@gmail.com
